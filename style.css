@@ -59,3 +59,24 @@ body {
   width: 75px;
   object-fit: cover;
 }
+
+.user .user-details {
+  margin-left: 10px;
+}
+
+.user .username {
+  margin: 0;
+}
+
+.user .role {
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background-color: #fff;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
